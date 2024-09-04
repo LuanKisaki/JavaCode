@@ -1,4 +1,4 @@
-public class Pratica17_interface_01 extends Pratica17_class_01{
+public class Pratica17_AlunoEnsinoMedio extends Pratica17_Aluno {
 
   //  Media
   public double getMedia() {

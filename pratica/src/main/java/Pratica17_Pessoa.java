@@ -1,4 +1,4 @@
-public class Pratica17_class_heranca {
+public class Pratica17_Pessoa {
   String nome;
 
   public String getNome() {

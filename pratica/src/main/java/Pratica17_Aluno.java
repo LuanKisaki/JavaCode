@@ -1,4 +1,4 @@
-public abstract class Pratica17_class_01 extends Pratica17_class_heranca implements Pratica17_interface{
+public abstract class Pratica17_Aluno extends Pratica17_Pessoa implements Pratica17_NotaMedia {
 
   double notaTeste, notaProva;
 

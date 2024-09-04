@@ -1,4 +1,4 @@
-public class Pratica17_class_02 extends Pratica17_class_heranca{
+public class Pratica17_SalarioProfessor extends Pratica17_Pessoa {
 
   double salario;
 
