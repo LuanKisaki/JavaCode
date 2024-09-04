@@ -25,6 +25,9 @@ public class Pratica17 {
     alunoEnsinoMedio.setNotaProva(6);
 
     System.out.println("Nome do aluno médio: "+ alunoEnsinoMedio.getNome());
+    System.out.print("Nota do teste: "+ alunoEnsinoMedio.getNotaTeste()+" |");
+    System.out.println("Nota da prova: "+ alunoEnsinoMedio.getNotaProva()+".");
+
     System.out.println("Média do aluno médio: "+ alunoEnsinoMedio.getMedia());
 
     System.out.println("______ Ensino Superior ___________");
@@ -33,6 +36,9 @@ public class Pratica17 {
     alunoEnsinoSuperior.setNotaProva(6);
 
     System.out.println("Nome do aluno superior: "+ alunoEnsinoSuperior.getNome());
+    System.out.print("Nota do teste: "+ alunoEnsinoSuperior.getNotaTeste()+" |");
+    System.out.println("Nota da prova: "+ alunoEnsinoSuperior.getNotaProva()+".");
+
     System.out.println("Média do aluno superior: "+ alunoEnsinoSuperior.getMedia());
 
 //    Professor
