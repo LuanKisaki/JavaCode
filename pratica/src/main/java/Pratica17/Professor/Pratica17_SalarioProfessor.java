@@ -1,11 +1,15 @@
+package Pratica17.Professor;
+
+import Pratica17.Pratica17_Pessoa;
+
 public class Pratica17_SalarioProfessor extends Pratica17_Pessoa {
 
-  double salario;
+  private double salario;
 
-  public double getSalario() {
+  double getSalario() {
     return salario;
   }
-  public void setSalario(double salario) {
+  void setSalario(double salario) {
     this.salario = salario;
   }
 
@@ -16,4 +20,5 @@ public class Pratica17_SalarioProfessor extends Pratica17_Pessoa {
   double getSalarioLiquido(){
     return salario - getInss();
   }
+
 }

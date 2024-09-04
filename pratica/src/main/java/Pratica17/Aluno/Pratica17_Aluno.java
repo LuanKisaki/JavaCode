@@ -1,9 +1,14 @@
+package Pratica17.Aluno;
+
+import Pratica17.Pratica17_NotaMedia;
+import Pratica17.Pratica17_Pessoa;
+
 public abstract class Pratica17_Aluno extends Pratica17_Pessoa implements Pratica17_NotaMedia {
 
-  double notaTeste, notaProva;
+  private double notaTeste, notaProva;
 
   //    NotaTeste
-  double getNotaTeste() {
+    double getNotaTeste() {
     return notaTeste;
   }
 
@@ -13,10 +18,12 @@ public abstract class Pratica17_Aluno extends Pratica17_Pessoa implements Pratic
 
   //       NotaProva
   double getNotaProva() {
+
     return notaProva;
   }
 
   void setNotaProva(double notaProva) {
+
     this.notaProva = notaProva;
   }
 

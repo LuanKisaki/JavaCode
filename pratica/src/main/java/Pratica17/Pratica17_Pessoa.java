@@ -1,3 +1,5 @@
+package Pratica17;
+
 public class Pratica17_Pessoa {
   String nome;
 
