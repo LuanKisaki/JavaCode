@@ -1,6 +1,6 @@
 package Pratica17;
 
-public class Pratica17_Pessoa {
+public class Pessoa {
   String nome;
 
   public String getNome() {

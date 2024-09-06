@@ -1,9 +1,9 @@
 package Pratica17.Aluno;
 
-import Pratica17.Pratica17_NotaMedia;
-import Pratica17.Pratica17_Pessoa;
+import Pratica17.NotaMedia;
+import Pratica17.Pessoa;
 
-public abstract class Pratica17_Aluno extends Pratica17_Pessoa implements Pratica17_NotaMedia {
+public abstract class Aluno extends Pessoa implements NotaMedia {
 
   private double notaTeste, notaProva;
 

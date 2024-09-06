@@ -1,5 +1,5 @@
 package Pratica17;
 
-public interface Pratica17_NotaMedia {
+public interface NotaMedia {
   double getMedia();
 }

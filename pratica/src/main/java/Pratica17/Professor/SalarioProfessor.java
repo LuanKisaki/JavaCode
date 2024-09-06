@@ -1,8 +1,8 @@
 package Pratica17.Professor;
 
-import Pratica17.Pratica17_Pessoa;
+import Pratica17.Pessoa;
 
-public class Pratica17_SalarioProfessor extends Pratica17_Pessoa {
+public class SalarioProfessor extends Pessoa {
 
   private double salario;
 

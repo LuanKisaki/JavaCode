@@ -1,6 +1,6 @@
 package Pratica17.Aluno;
 
-public class Pratica17_AlunoEnsinoMedio extends Pratica17_Aluno {
+public class AlunoEnsinoMedio extends Aluno {
 
   //  Media
   public double getMedia() {

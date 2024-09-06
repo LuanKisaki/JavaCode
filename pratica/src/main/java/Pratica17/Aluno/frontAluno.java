@@ -3,14 +3,14 @@ package Pratica17.Aluno;
 
 import java.util.Scanner;
 
-public class Pratica17_frontAluno {
+public class frontAluno {
   public static void main(String[] args) {
 //obs:criar um objeto com o mesmo nome da classe porém com a letra
 //    inicial minúscula é um boa prática adotada pela comunidade
 //    Aluno aluno = new Aluno();
     Scanner scanner = new Scanner(System.in);
-    Pratica17_AlunoEnsinoMedio alunoEnsinoMedio = new Pratica17_AlunoEnsinoMedio();
-    Pratica17_AlunoEnsinoSuperior alunoEnsinoSuperior = new Pratica17_AlunoEnsinoSuperior();
+    AlunoEnsinoMedio alunoEnsinoMedio = new AlunoEnsinoMedio();
+    AlunoEnsinoSuperior alunoEnsinoSuperior = new AlunoEnsinoSuperior();
 
 //    Não é seguro configurar o "objeto.nome" diretamente fora da classe
 //    para isso, na classe ("Aluno") se usa o this.

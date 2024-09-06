@@ -3,12 +3,12 @@ package Pratica17.Professor;
 
 import java.util.Scanner;
 
-public class Pratica17_frontProfessor {
+public class frontProfessor {
   public static void main(String[] args) {
 //obs:criar um objeto com o mesmo nome da classe porém com a letra
 //    inicial minúscula é um boa prática adotada pela comunidade
 //    Aluno aluno = new Aluno();
-    Pratica17_SalarioProfessor salarioProfessor = new Pratica17_SalarioProfessor();
+    SalarioProfessor salarioProfessor = new SalarioProfessor();
     Scanner scanner = new Scanner(System.in);
 //    Professor
 
