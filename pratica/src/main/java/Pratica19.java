@@ -1,3 +1,4 @@
+
 public class Pratica19 {
   public static void main(String[] args) {
 
@@ -12,6 +13,7 @@ public class Pratica19 {
     StringBuffer buffer = new StringBuffer();
     buffer.append(nome);
     buffer.append(sobreNome);
+
 
     nomeComBuffer = buffer.toString();
 
